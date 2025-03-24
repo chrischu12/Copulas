@@ -20,6 +20,7 @@ class CopulaTypes(Enum):
     FRANK = 1
     GUMBEL = 2
     INDEPENDENCE = 3
+    GAUSSIAN = 4
 
 
 class Bivariate(object):

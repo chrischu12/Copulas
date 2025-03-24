@@ -8,6 +8,8 @@ from copulas.bivariate.base import Bivariate, CopulaTypes
 from copulas.bivariate.clayton import Clayton
 from copulas.bivariate.frank import Frank
 from copulas.bivariate.gumbel import Gumbel
+from copulas.bivariate.gaussian import GaussianCopula
+
 from copulas.bivariate.utils import split_matrix
 
 __all__ = (
@@ -16,6 +18,7 @@ __all__ = (
     'CopulaTypes',
     'Frank',
     'Gumbel',
+    'GaussianCopula',
 )
 
 
